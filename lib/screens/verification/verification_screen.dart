@@ -1,3 +1,4 @@
+import 'package:fintech_app/screens/verification/widgets/otp_textfield.dart';
 import 'package:flutter/material.dart';
 
 class VerificationScreen extends StatelessWidget {
@@ -28,7 +29,7 @@ class VerificationScreen extends StatelessWidget {
                 height: 54,
               ),
               //textfield for the otp
-              Form(child: child)
+              const OtpTextfield()
               //didn't get the code? resend
 
               //continue button
